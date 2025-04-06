@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Blood Donation</title>
+    <link rel="stylesheet" href="login-styles.css">
+</head>
+<body>
+    <section class="login-container">
+        <h1>Login</h1>
+        <form action="index.html" method="GET">
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required pattern="\d{10}">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </section>
+</body>
+</html>
