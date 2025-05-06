@@ -9,3 +9,7 @@ scikit-learn
 memory_profiler
 streamlit
 nltk
+tensorflow
+tensorboard
+tensorflow-datasets
+keras
